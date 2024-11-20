@@ -93,7 +93,7 @@ public class NegativeNumberChecker {
     }
 }
 ```
-#5. Write a Java program that reads a file and throws an exception if the file is empty.
+# 5. Write a Java program that reads a file and throws an exception if the file is empty.
 ```java
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -120,7 +120,7 @@ public class EmptyFileChecker {
     }
 }
 ```
-#6. Write a Java program that reads a list of integers from the user and throws an exception if any numbers are duplicates.
+# 6. Write a Java program that reads a list of integers from the user and throws an exception if any numbers are duplicates.
 ```java
 import java.util.HashSet;
 import java.util.Scanner;
@@ -153,7 +153,7 @@ public class DuplicateNumberChecker {
     }
 }
 ```
-#7. Write a Java program to create a method that takes a string as input and throws an exception if the string does not contain vowels.
+# 7. Write a Java program to create a method that takes a string as input and throws an exception if the string does not contain vowels.
 ```java
 public class VowelChecker {
     public void checkVowels(String input) throws Exception {
