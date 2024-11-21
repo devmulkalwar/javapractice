@@ -1,9 +1,9 @@
 # Table of Contents
-1. [Practical 1](#practical-1)
-2. [Practical 2](#practical-2)
-3. [Practical 3](#practical-3)
-4. [Practical 4](#practical-4)
-5. [Practical 5](#practical-5)
+1. [Practical 1](#practical-1-)
+2. [Practical 2](#practical-2-)
+3. [Practical 3](#practical-3-)
+4. [Practical 4](#practical-4-)
+5. [Practical 5](#practical-5-)
 
 ---
 # Practical 1 : 
