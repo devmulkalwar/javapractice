@@ -1,8 +1,9 @@
-# Practical 1 : WAP in java to create a class for employee record with two constructor, first default constructor to initialize all variables, second parametarized constructor to accept the employee details and a method to display employee details
+# Practical 1 : 
+## WAP in java to create a class for employee record with two constructor, first default constructor to initialize all variables, second parametarized constructor to accept the employee details and a method to display employee details
 
 ```java
- class Employee {
-	int empId ;
+class Employee {
+    int empId ;
     String empName;
     double empSalary;
     
