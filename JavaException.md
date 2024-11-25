@@ -1,3 +1,30 @@
+# Java Exception Handling Programs
+
+## Table of Contents
+
+1. [Throwing and Catching Exceptions](#1-throwing-and-catching-exceptions)  
+   - Program demonstrating how to throw and catch a custom exception using a `try-catch` block.  
+
+2. [Exception for Odd Numbers](#2-exception-for-odd-numbers)  
+   - Program to check if a number is odd and throw a custom exception when the condition is met.  
+
+3. [File Not Found Exception](#3-file-not-found-exception)  
+   - Program to read a file and throw an exception if the file is not found.  
+
+4. [Positive Number Detection](#4-positive-number-detection)  
+   - Program to read numbers from a file and throw an exception if any of the numbers are positive.  
+
+5. [Empty File Detection](#5-empty-file-detection)  
+   - Program to check if a file is empty and throw an exception if it is.  
+
+6. [Duplicate Number Checker](#6-duplicate-number-checker)  
+   - Program to check for duplicate numbers from user input and throw an exception if duplicates are found.  
+
+7. [String Vowel Checker](#7-string-vowel-checker)  
+   - Program to check if a string contains vowels and throw an exception if it does not.
+
+---
+
 # 1. Write a Java program that throws an exception and catch it using a try-catch block.
 ```java
 public class ExceptionExample {
