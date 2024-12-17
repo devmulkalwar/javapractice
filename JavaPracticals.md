@@ -2,16 +2,16 @@
 
 | No.  | Practical  | Link         |
 |------|------------|--------------|
-| 1    | Practical 1| [Practical 1](#practical-1) |
-| 2    | Practical 2| [Practical 2](#practical-2) |
-| 3    | Practical 3| [Practical 3](#practical-3) |
-| 4    | Practical 4| [Practical 4](#practical-4) |
-| 5    | Practical 5| [Practical 5](#practical-5) |
-| 6    | Practical 6| [Practical 6](#practical-6) |
-| 7    | Practical 7| [Practical 7](#practical-7) |
-| 8    | Practical 8| [Practical 8](#practical-8) |
-| 9    | Practical 9| [Practical 9](#practical-9) |
-| 10   | Practical 10| [Practical 10](#practical-10) |
+| 1    | Practical 1| [Practical 1](#practical-1-) |
+| 2    | Practical 2| [Practical 2](#practical-2-) |
+| 3    | Practical 3| [Practical 3](#practical-3-) |
+| 4    | Practical 4| [Practical 4](#practical-4-) |
+| 5    | Practical 5| [Practical 5](#practical-5-) |
+| 6    | Practical 6| [Practical 6](#practical-6-) |
+| 7    | Practical 7| [Practical 7](#practical-7-) |
+| 8    | Practical 8| [Practical 8](#practical-8-) |
+| 9    | Practical 9| [Practical 9](#practical-9-) |
+| 10   | Practical 10| [Practical 10](#practical-10-) |
 ---
 # Practical 1 : 
 ## Write a program in java  to create a class for employee record with two constructors, first default constructor to initialize all variables, second constructor to accept the employee details and a method to display employee details.
