@@ -48,7 +48,7 @@ public class EmployeeRecord
         Employee e1 = new Employee();
         e1.show();
         Employee e2 = new Employee(102,50050, "BBB");
-        e2.show()   
+        e2.show();   
     }
 }
 
