@@ -503,3 +503,129 @@ public class TenActionInputDialog extends JApplet implements ActionListener{
 }
 ```
 ---
+# Practical 11:
+## Create an application to retrieve information (author id, name, address, city) about the author who living in the city name begins with the letter “n”
+
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class ElevenAuthor {
+public static void main(String args[])
+{
+    Statement statement = null;
+    ResultSet resultset= null;
+     try{
+         String url = "jdbc:mysql://localhost:3306/Employee";
+         String user="root";
+         String pass="root";
+         String Driver ="com.mysql.jdbc.Driver";
+         //StringDriver = "com.mysql.cj.jdbc.Driver";
+         String Query = "select* from author where city like N%";
+         Class.forName(Driver);
+         Connection con = DriverManager.getConnection(url, user, pass);
+         
+         Statement st = con.createStatement();
+         ResultSet set = st.executeQuery(Query);
+         while (set.next())
+         {
+             int authorid = set.getInt("authorid");
+             String name = set.getString("name");
+             String address = set.getString("address");
+             String city = set.getString("city");
+             System.out.println("...................................");
+             System.out.println(authorid+"\t"+name+"\t"+ address+"\t"+city);
+         }
+     }
+     catch(Exception e)
+     {
+         e.printStackTrace();
+     }
+}
+}
+
+```
+---
+
+# Practical 12:
+## Write a program to Delete Record from the employee table whose salary is greater than 20000
+
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+
+public class TwelvEmp {
+    public static void main(String args[])
+{
+    Statement statement = null;
+    ResultSet resultset= null;
+     try{
+         String url = "jdbc:mysql://localhost:3306/Employee";
+         String user="root";
+         String pass="root";
+         String Driver ="com.mysql.jdbc.Driver";
+         //StringDriver = "com.mysql.cj.jdbc.Driver";
+         String Query = "Delete from Employee where salary >= 20000";
+         Class.forName(Driver);
+         Connection con = DriverManager.getConnection(url, user, pass);
+         
+         Statement st = con.createStatement();
+         ResultSet set = st.executeQuery(Query);
+         while (set.next())
+         {
+             int eid = set.getInt("eid");
+             String ename = set.getString("ename");
+             String esalary = set.getString("esalary");
+             
+             System.out.println("...................................");
+             System.out.println(eid+"\t"+ename+"\t"+esalary);
+         }
+     }
+     catch(Exception e)
+     {
+         e.printStackTrace();
+     }
+}
+}
+```
+---
+# Practical 13:
+## Write a program to reading servlet parameter
+
+```java
+import javax.servelet.http.*;
+import javax.servelet.*;
+import java.io.*;
+public class DemoServelet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+    private int iHitCounter;
+    public void init()throws ServeletException
+    {
+    iHitCounter=0;
+    }
+    public void doGet(HttpSeveletRequest request, request HttpServeletResponse response)
+            throws ServeletException, IOException
+    {
+        PrintWriter out = response.getWriter();
+        out.println("<form><fieldset style= width=50%>");
+        out.println("<h3>Welcome to my website !<h3><hr>");
+        out.println("<you are visitor number:"+ (++iHitCounter));
+        out.println("</fieldset></form>");
+    }
+    public void doPost(HttpSeveletRequest request, request HttpServeletResponse response)
+        throws ServeletException, IOException
+    {
+        doGet(request, response);
+        
+        
+    }  
+        
+}
+```
+---
