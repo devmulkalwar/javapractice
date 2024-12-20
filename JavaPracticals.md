@@ -12,6 +12,9 @@
 | 8    | Practical 8| [Practical 8](#practical-8-) |
 | 9    | Practical 9| [Practical 9](#practical-9-) |
 | 10   | Practical 10| [Practical 10](#practical-10-) |
+| 11   | Practical 11| [Practical 11](#practical-11-) |
+| 12   | Practical 12| [Practical 12](#practical-12-) |
+| 13   | Practical 13| [Practical 13](#practical-13-) |
 ---
 # Practical 1 : 
 ## Write a program in java  to create a class for employee record with two constructors, first default constructor to initialize all variables, second constructor to accept the employee details and a method to display employee details.
@@ -503,7 +506,7 @@ public class TenActionInputDialog extends JApplet implements ActionListener{
 }
 ```
 ---
-# Practical 11:
+# Practical 11 :
 ## Create an application to retrieve information (author id, name, address, city) about the author who living in the city name begins with the letter “n”
 
 ```java
@@ -550,7 +553,7 @@ public static void main(String args[])
 ```
 ---
 
-# Practical 12:
+# Practical 12 :
 ## Write a program to Delete Record from the employee table whose salary is greater than 20000
 
 ```java
@@ -595,7 +598,7 @@ public class TwelvEmp {
 }
 ```
 ---
-# Practical 13:
+# Practical 13 :
 ## Write a program to reading servlet parameter
 
 ```java
